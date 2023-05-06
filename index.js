@@ -60,7 +60,7 @@ function themeChange(){
         mt=!mt;
     }
     else{
-        document.getElementById("btn").innerHTML="light";
+        document.getElementById("btn").innerHTML="Light";
         mt=!mt;
     }
     
