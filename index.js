@@ -31,7 +31,7 @@ function showDate(){
     let dt=d+"/"+mn+"/"+y;
     document.getElementById("date").innerHTML=dt;
     document.getElementById("date").textContent=dt;
-    setTimeout(showDate,1000);
+    setTimeout(showDate,1000000);
 }
 function showDay(){
     let a=new Date();
@@ -39,19 +39,19 @@ function showDay(){
     let dy=dy_arr[day];
     document.getElementById("day").innerHTML=dy;
     document.getElementById("day").textContent=dy;
-    setTimeout(showDay,1000);
+    setTimeout(showDay,1000000);
 }
 
 showTime();
 showDate();
 showDay();
 let mt=true;
-if(document.body.classList.contains("theme2")){
-    document.getElementById("btn").innerHTML="light";
-}
-else{
-    document.getElementById("btn").innerHTML="Dark"
-}
+// if(document.body.classList.contains("theme2")){
+//     document.getElementById("btn").innerHTML="light";
+// }
+// else{
+//     document.getElementById("btn").innerHTML="Dark"
+// }
 function themeChange(){
 
     document.body.classList.toggle("theme2");
@@ -65,3 +65,4 @@ function themeChange(){
     }
     
 }
+
