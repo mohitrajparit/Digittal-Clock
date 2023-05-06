@@ -58,7 +58,7 @@ button{
     background-color: black;
     color: beige;
     border-radius: 30%;
-    font-size: medium;
+    font-size: large;
 }
 .theme button :hover{
     cursor: pointer;
@@ -87,23 +87,23 @@ button{
         margin-right: 0;
     }
     .date{
-        font-size: 207%;
+        font-size: 195%;
         margin: -1%;
         top: 40%;
         letter-spacing: 0.2rem;
     }
     .time{
-        font-size: 243%;
+        font-size: 235%;
         letter-spacing: 0.2rem;
     }
     .day{
-        font-size: 236%;
+        font-size: 225%;
         letter-spacing: 0.2rem;
     }
     button{
         font-size: 20px;
     }
     .foot{
-        left: 32%;
+        left: 32%%;
     }
 }
