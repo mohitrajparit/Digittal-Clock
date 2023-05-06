@@ -87,23 +87,23 @@ button{
         margin-right: 0;
     }
     .date{
-        font-size: 210%;
+        font-size: 207%;
         margin: -1%;
         top: 40%;
         letter-spacing: 0.2rem;
     }
     .time{
-        font-size: 248%;
+        font-size: 243%;
         letter-spacing: 0.2rem;
     }
     .day{
-        font-size: 240%;
+        font-size: 236%;
         letter-spacing: 0.2rem;
     }
     button{
         font-size: 20px;
     }
     .foot{
-        left: 32%%;
+        left: 32%;
     }
 }
